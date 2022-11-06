@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Conf Bs As</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximun-sclae=1" />
+<link rel="stylesheet" type="text/css" href="styles.css">  
+</head>
+
+<body>
+
+  <div class="barrasup">
+    <div id="letra">
+    <p> Bs As</p> 
+    </div>
+    </div>
+
+
+<div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Estudiante</h5>
+          <p class="card-text">Tiene un descuento</p>
+          <b>80%</b>
+          <p>*presentar documentación</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Trainee</h5>
+          <p class="card-text">Tiene un descuento</p>
+          <b>50%</b>
+          <p>*presentar documentación</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Junior</h5>
+            <p class="card-text">Tiene un descuento</p>
+            <b>15%</b>
+            <p>*presentar documentación</p>            
+          </div>
+        </div>
+      </div>
+  </div>
+
+  
+<div class="card2">
+<h1 class="m-5">Valor de Ticket $200</h1>
+      <label>Nombre: </label><input type="text" id="nombre">
+      <br><br>
+      <label>Apellido: </label><input type="text" id="apellido">
+      <br><br>
+      <label>Correo: </label><input type="text" id="correo">
+      <br><br>
+      <label>Cantidad: </label><input type="text" id="cantidad">  
+      <br><br>
+
+      <select id="categoriaSelect">        
+        <option selected></option>
+        <option value="">--Seleccione--</option>
+        <option value="1">Estudiante</option>
+        <option value="2">Trainee</option>
+        <option value="3">Junior</option>      
+      </select>
+      <br></br>
+    
+  
+    <button id="Calcular">Calcular</button>
+    <button id="reset">reset</button>
+    <p>Total a pagar $:  <span id="Total a pagar"></span></p>
+          
+</div>
+  
+
+  </script>
+    <script src="JavaScript.js"></script>
+       
+
+</body>
+</html>
